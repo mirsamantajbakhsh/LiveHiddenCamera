@@ -29,8 +29,9 @@ Additionally you should care about:
 - \<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
  2. You should handle that the declared permissions are granted to your application
-![Camera and Audio Permission](https://github.com/mirsamantajbakhsh/LiveHiddenCamera/raw/master/ScreenShots/Permissions1.png)
-![Overlay Permission](https://github.com/mirsamantajbakhsh/LiveHiddenCamera/raw/master/ScreenShots/Permissions2.png)
+
+<img src="https://github.com/mirsamantajbakhsh/LiveHiddenCamera/raw/master/ScreenShots/Permissions1.png" width="350">
+<img src="https://github.com/mirsamantajbakhsh/LiveHiddenCamera/raw/master/ScreenShots/Permissions2.png" width="350">
 
 ## Adding library
 The usage of the library is straight. Just add the following library to the `gradle.build` file of your project.
