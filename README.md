@@ -1,3 +1,4 @@
+
 # Live Hidden Camera
 
 Live Hidden Camera (LHC) is a library which record live video and audio from Android device without displaying a preview.
@@ -30,8 +31,8 @@ Additionally you should care about:
 
  2. You should handle that the declared permissions are granted to your application
 
-<img src="https://github.com/mirsamantajbakhsh/LiveHiddenCamera/raw/master/ScreenShots/Permissions1.png" width="350">
-<img src="https://github.com/mirsamantajbakhsh/LiveHiddenCamera/raw/master/ScreenShots/Permissions2.png" width="350">
+<img src="https://github.com/mirsamantajbakhsh/LiveHiddenCamera/raw/master/ScreenShots/Permissions1.png" width="250">
+<img src="https://github.com/mirsamantajbakhsh/LiveHiddenCamera/raw/master/ScreenShots/Permissions2.png" width="250">
 
 ## Adding library
 The usage of the library is straight. Just add the following library to the `gradle.build` file of your project.
@@ -55,7 +56,7 @@ After adding the library to your project, do the following steps:
 
  3. Implement a function for starting the Live Hidden Camera:
  
-
+```Java
     private void initHiddenCam(String rtmpURL) {  
     HiddenCameraLayout l = new HiddenCameraLayout(getApplicationContext(), new HiddenCameraLayout.PermissionHandler() {  
         @Override  
@@ -84,6 +85,7 @@ After adding the library to your project, do the following steps:
     mPublisher.startPublish(rtmpURL);  
     mPublisher.startCamera();  
 }
+```
 
 # Problems
 ## Green Screen
@@ -104,4 +106,3 @@ Check the *Cloak and Dagger* here:
  
 # Contact
 You can reach me from my website: https://mstajbakhsh.ir/
-
