@@ -24,10 +24,12 @@ I've created a library to make it more usable. The only requirement is to add th
 Additionally you should care about:
 
  1. Your application should have the following permissions in `Manifest.xml`:
- - \<uses-permission android:name="android.permission.INTERNET" />  
-- \<uses-permission android:name="android.permission.CAMERA" />  
-- \<uses-permission android:name="android.permission.RECORD_AUDIO" />  
-- \<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+ ```
+<uses-permission android:name="android.permission.INTERNET" />  
+<uses-permission android:name="android.permission.CAMERA" />  
+<uses-permission android:name="android.permission.RECORD_AUDIO" />  
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+```
 
  2. You should handle that the declared permissions are granted to your application
 
@@ -37,7 +39,9 @@ Additionally you should care about:
 ## Adding library
 The usage of the library is straight. Just add the following library to the `gradle.build` file of your project.
 
-`compile 'ir.mstajbakhsh.android:LiveHiddenCamera:0.1.0'`
+`compile 'ir.mstajbakhsh.android:LiveHiddenCamera:0.1.1'`
+
+- Update: In the previouls release, Main Activity with Launcher filter was in library, which made the application (that uses the library), had two icons. **In this release, the filter is commented in `Manifest`**.
 
 ## Creating RTMP server
 Before using the library, you should have deployed an Rtmp server. I've ued [Ant Media Server](https://github.com/ant-media/Ant-Media-Server). There is a nice guide on Ant Media Server installation in [THIS LINK](https://github.com/ant-media/Ant-Media-Server/wiki/Getting-Started).
