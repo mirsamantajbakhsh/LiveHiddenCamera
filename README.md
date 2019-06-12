@@ -107,6 +107,14 @@ Check the *Cloak and Dagger* here:
 
  1. http://cloak-and-dagger.org
  2. https://medium.com/@targetpractice/cloak-and-dagger-malware-techniques-demystified-c4d8a035b94e
- 
+
+# Donate
+You may donate this project using my BitCoin address at:
+
+```
+BitCoin:
+
+1F5uiEmdCLJX5KktWHE1wkc63feKJYMmxS
+```
 # Contact
 You can reach me from my website: https://mstajbakhsh.ir/
