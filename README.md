@@ -39,7 +39,7 @@ Additionally you should care about:
 ## Adding library
 The usage of the library is straight. Just add the following library to the `gradle.build` file of your project.
 
-`compile 'ir.mstajbakhsh.android:LiveHiddenCamera:0.1.1'`
+`compile 'ir.mstajbakhsh.android:LiveHiddenCamera:0.1.2'`
 
 - Update: In the previouls release, Main Activity with Launcher filter was in library, which made the application (that uses the library), had two icons. **In this release, the filter is commented in `Manifest`**.
 
