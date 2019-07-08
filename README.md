@@ -39,9 +39,11 @@ Additionally you should care about:
 ## Adding library
 The usage of the library is straight. Just add the following library to the `gradle.build` file of your project.
 
-`compile 'ir.mstajbakhsh.android:LiveHiddenCamera:0.1.2'`
+`compile 'ir.mstajbakhsh.android:LiveHiddenCamera:1.1.3'`
 
 - Update: In the previouls release, Main Activity with Launcher filter was in library, which made the application (that uses the library), had two icons. **In this release, the filter is commented in `Manifest`**.
+
+- Update: x86_64 is added to the library.
 
 ## Creating RTMP server
 Before using the library, you should have deployed an Rtmp server. I've ued [Ant Media Server](https://github.com/ant-media/Ant-Media-Server). There is a nice guide on Ant Media Server installation in [THIS LINK](https://github.com/ant-media/Ant-Media-Server/wiki/Getting-Started).
